@@ -11,5 +11,13 @@
             "email": "rcollin2@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Remic\\Warp\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
     "minimum-stability": "stable"
 }
