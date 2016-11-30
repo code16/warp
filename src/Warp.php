@@ -1,12 +1,24 @@
 <?php
 
-namespace Remic/Warp;
+namespace Remic\Warp;
 
 use Illuminate\Support\Arrayable;
 
 class Warp
 {
+	protected static $instance;
+
 	protected $data = [];
+
+	public function __construct()
+	{
+		static::$instance = $this;
+	}
+
+	public static function getInstance()
+	{
+		return static::$instance;
+	}
 
 	/** 
 	 * Dump all data
@@ -15,9 +27,9 @@ class Warp
 	 */
 	public function dump()
 	{
-		$data = array_map($this->data, function($item) {
-			$item instanceof Arrayable ? return $item->toArray() : $item;
-		});
+		$data = array_map(function($item) {
+			return $item instanceof Arrayable ? $item->toArray() : $item;
+		}, $this->data);
 
 		return $data;
 	}
