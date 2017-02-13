@@ -1,6 +1,6 @@
 <?php
 
-use Remic\Warp\Warp;
+use Code16\Warp\Warp;
 use Closure;
 use Stubs\ArrayableClass;
 use Stubs\JsonableClass;

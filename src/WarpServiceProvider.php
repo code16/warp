@@ -1,6 +1,6 @@
 <?php
 
-namespace Remic\Warp;
+namespace Code16\Warp;
 
 use Illuminate\Support\ServiceProvider;
 
