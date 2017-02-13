@@ -1,8 +1,12 @@
 {
     "name": "remic/warp",
-    "description": "Laravel --> VueJS",
+    "description": "Easily dump configuration values to Javascript",
     "require": {
-        "illuminate/support": "^5.3"
+        "php": ">=7.0.0",
+        "illuminate/support": "5.4.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.0"
     },
     "license": "MIT",
     "authors": [
@@ -18,6 +22,11 @@
         "files": [
             "src/helpers.php"
         ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Stubs\\": "tests/stubs"
+        }
     },
     "minimum-stability": "stable"
 }
