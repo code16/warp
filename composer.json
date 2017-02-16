@@ -1,6 +1,6 @@
 {
-    "name": "remic/warp",
-    "description": "Easily dump configuration values to Javascript",
+    "name": "code16/warp",
+    "description": "Easily transfer data from PHP to Javascript/VueJS",
     "require": {
         "php": ">=7.0.0",
         "illuminate/support": "5.4.*"
@@ -17,7 +17,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Remic\\Warp\\": "src/"
+            "Code16\\Warp\\": "src/"
         },
         "files": [
             "src/helpers.php"
