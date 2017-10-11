@@ -3,7 +3,7 @@
     "description": "Easily transfer data from PHP to Javascript/VueJS",
     "require": {
         "php": ">=7.0.0",
-        "illuminate/support": "5.4.*"
+        "illuminate/support": "5.4.*|5.5.*"
     },
     "require-dev": {
         "phpunit/phpunit": "~5.0"
