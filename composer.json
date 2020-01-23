@@ -3,10 +3,10 @@
     "description": "Easily transfer data from PHP to Javascript/VueJS",
     "require": {
         "php": ">=7.0.0",
-        "illuminate/support": "5.4.*|5.5.*|5.6.*|5.7.*|5.8.*"
+        "illuminate/support": "5.4.*|5.5.*|5.6.*|5.7.*|5.8.*|^6.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "~5.0"
+        "phpunit/phpunit": "~8.0"
     },
     "license": "MIT",
     "authors": [

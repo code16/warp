@@ -1,12 +1,12 @@
 <?php
 
 use Code16\Warp\Warp;
+use PHPUnit\Framework\TestCase;
 use Stubs\ArrayableClass;
 use Stubs\JsonableClass;
 use Stubs\JsonableArrayableClass;
-use Illuminate\Support\Collection;
 
-class WarpTest extends PHPUnit_Framework_TestCase
+class WarpTest extends TestCase
 {
 	/** @test */
 	public function we_can_use_get_to_retrieve_a_single_string()
